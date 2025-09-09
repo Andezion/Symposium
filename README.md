@@ -8,6 +8,15 @@
 * [Features](#features)
 * [Setup](#setup)
 
+---
+
+## General info 
+Symposium Manager is a web application designed to manage academic or business symposiums. It allows organizing participants, presentations, topics, and rooms in a structured way. The system provides tools for scheduling and tracking symposium sessions. Built with modern Java and Spring Boot technologies, it ensures scalability and easy integration.
+
+---
+
+## Demonstration
+
 ```
  :: Spring Boot ::                (v3.2.5)
 
@@ -39,3 +48,36 @@
 2025-09-09T16:17:52.832+02:00  INFO 15400 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-09-09T16:17:52.833+02:00  INFO 15400 --- [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 ```
+
+---
+
+## Technologies
+- Java 21 — main programming language
+- Spring Boot 3.x — application framework
+- Spring Web (MVC/REST) — handling HTTP requests
+- Spring Data JPA — database access via repositories
+- Hibernate ORM — object-relational mapping
+- PostgreSQL — relational database
+- HikariCP — database connection pooling
+
+---
+
+## Features
+
+---
+
+## Setup
+1. Clone the repository:  
+   ```
+   git clone https://github.com/your-username/Symposium.git
+   ```
+2. Navigate to the project folder and build with Maven:
+   ```
+   mvn clean install
+   ```
+3. Run the application:
+   ```
+   mvn javafx:run
+   ```
+4. Obtain an API key from OpenWeather and place it in your configuration file.
+
