@@ -63,6 +63,13 @@ Symposium Manager is a web application designed to manage academic or business s
 ---
 
 ## Features
+- Manage participants with details such as type and country of origin
+- Organize symposium topics and assign them to sessions
+- Schedule presentations with presenter, topic, room, and time
+- Room management with capacity and availability tracking
+- Generate symposium programs automatically
+- REST API endpoints for data access and integration
+- Database persistence using PostgreSQL and Spring Data JPA
 
 ---
 
